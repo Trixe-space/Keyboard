@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <span id="output"></span>
+    <div id="keyboard">
+        <div class="row" id="lights">
+            <div class="lights"></div>
+            <div class="lights"></div>
+        </div>
+        <div class="row" id="light-text">
+            <span>Caps</span>
+            <span>Shift</span>
+        </div>
+        <div class="row">
+            <button class="typing" id="top-left">`</button>
+            <button class="typing">1</button>
+            <button class="typing">2</button>
+            <button class="typing">3</button>
+            <button class="typing">4</button>
+            <button class="typing">5</button>
+            <button class="typing">6</button>
+            <button class="typing">7</button>
+            <button class="typing">8</button>
+            <button class="typing">9</button>
+            <button class="typing">0</button>
+            <button class="typing">-</button>
+            <button class="typing"> =</button>
+            <button class="size-two blue backspace" id="top-right">Backspace</button>
+        </div>
+        <div class="row">
+            <button class="size-one-point-five blue typing">Tab</button>
+            <button class="typing">q</button>
+            <button class="typing">w</button>
+            <button class="typing">e</button>
+            <button class="typing">r</button>
+            <button class="typing">t</button>
+            <button class="typing">y</button>
+            <button class="typing">u</button>
+            <button class="typing">i</button>
+            <button class="typing">o</button>
+            <button class="typing">p</button>
+            <button class="typing">[</button>
+            <button class="typing">]</button>
+            <button class="size-one-point-five typing">\</button>
+        </div>
+        <div class="row">
+            <button class="size-two blue caps">Capslock</button>
+            <button class="typing">a</button>
+            <button class="typing">s</button>
+            <button class="typing">d</button>
+            <button class="typing">f</button>
+            <button class="typing">g</button>
+            <button class="typing">h</button>
+            <button class="typing">j</button>
+            <button class="typing">k</button>
+            <button class="typing">l</button>
+            <button class="typing">;</button>
+            <button class="typing">'</button>
+            <button class="size-two blue typing">Enter</button>
+        </div>
+        <div class="row">
+            <button class="size-three blue shift">Shift</button>
+            <button class="typing">z</button>
+            <button class="typing">x</button>
+            <button class="typing">c</button>
+            <button class="typing">v</button>
+            <button class="typing">b</button>
+            <button class="typing">n</button>
+            <button class="typing">m</button>
+            <button class="typing">,</button>
+            <button class="typing">.</button>
+            <button class="typing">/</button>
+            <button class="size-two-point-five blue shift">Shift</button>
+        </div>
+        <div class="row">
+            <button class="blue unfunctional" id="bottom-left">Ctrl</button>
+            <button class="blue typing">⍼</button>
+            <button class="blue unfunctional">Alt</button>
+            <button class="size-nine typing"></button>
+            <button class="blue unfunctional">Alt</button>
+            <button class="blue unfunctional">☰</button>
+            <button class="blue unfunctional" id="bottom-right">Ctrl</button>
+        </div>
+    </div>
+    <script src="Keyboard.js"></script>
+</body>
+
+</html>

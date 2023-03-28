@@ -1,0 +1,130 @@
+/* For debugging */
+/* * {
+    outline: 2px green solid;
+} */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    width: 100vw;
+    height: 85vh;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(206, 228, 235);
+}
+
+#keyboard {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 5px;
+    background-color: rgb(50, 50, 50);
+    padding: 1%;
+    border-radius: 15px;
+}
+
+#top-left {
+    border-top-left-radius: 10px;
+}
+
+#top-right {
+    border-top-right-radius: 10px;
+}
+
+#bottom-left {
+    border-bottom-left-radius: 10px;
+}
+
+#bottom-right {
+    border-bottom-right-radius: 10px;
+}
+
+#output {
+    display: inline-block;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 50px;
+    margin: 10vh;
+    width: 100vw;
+    white-space: pre;
+}
+
+#output::after {
+    content: '|';
+    background-color: white;
+    height: 50px;
+    width: 5px;
+}
+
+#lights {
+    justify-content: end;
+    gap: 23px;
+}
+
+#light-text {
+    justify-content: end;
+    gap: 20px;
+    font-size: 10px;
+    opacity: 0.2;
+}
+
+.lights {
+    background-color: gray;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin-inline: 2px;
+}
+
+.row {
+    display: flex;
+    column-gap: 5px;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.size-one-point-five {
+    width: 77.5px;
+}
+
+.size-two {
+    width: 105px;
+}
+
+.size-two-point-five {
+    width: 115px;
+}
+
+.size-three {
+    width: 150px;
+}
+
+.size-nine {
+    width: 490px;
+}
